@@ -1,6 +1,64 @@
 # ThawornAp เว็บแอปพลิเคชันสำหรับแจ้งปัญหาในหอขนาดเล็ก
 เป็นแอปพลิเคชันที่พัฒนาด้วย React-Javascript
 
+## โครงสร้างโฟลเดอร์
+
+```bash
+├── src
+│   ├── connection
+│   ├── controller
+│   │   ├── authen
+│   │   ├── change_state
+│   │   ├── expeses_all_branch
+│   │   ├── expeses_branch
+│   │   ├── list_report
+│   │   ├── login
+│   │   ├── menu_list
+│   │   ├── register
+│   │   ├── register_admin
+│   │   ├── report
+│   │   ├── report_state
+│   │   ├── select_branch
+│   │   ├── select_place
+│   │   ├── select_place_type
+│   │   ├── table_admin
+│   │   ├── thaworn_role
+│   │   ├── time_slot
+│   │   ├── update_repair_date_list_report
+│   │   └── user_profile
+│   ├── enums
+│   ├── sql_tables
+│   │   ├── EXPENSES.sql
+│   │   ├── FUNCTION_LIST.sql
+│   │   ├── INSERT_FUNCTION_LIST.sql
+│   │   ├── INSERT_REPORT_STATE.sql
+│   │   ├── INSERT_ROLE_LIST.sql
+│   │   ├── INSERT_SELECT_BRANCH.sql
+│   │   ├── INSERT_SELECT_ITEM_REPAIR.sql
+│   │   ├── INSERT_SELECT_PLACE.sql
+│   │   ├── INSERT_SELECT_PLACE_TYPE.sql
+│   │   ├── INSERT_THAWORN_ROLE.sql
+│   │   ├── REPORT.sql
+│   │   ├── REPORT_STATE.sql
+│   │   ├── ROLE_LIST.sql
+│   │   ├── SELECT_BRANCH.sql
+│   │   ├── SELECT_ITEM_REPAIR.sql
+│   │   ├── SELECT_PLACE.sql
+│   │   ├── SELECT_PLACE_TYPE.sql
+│   │   ├── THAWORN_ROLE.sql
+│   │   ├── TIME_SLOT.sql
+│   │   └── USER_INFO.sql
+│   └── utils
+├── .env
+├── .gitignore
+├── docker-compose.yml
+├── index.js
+├── package-lock.json
+├── package.json
+├── readme.md
+└── sql_query.js
+```
+
 ## ขั้นตอนในการติดตั้ง
 1. ติดตั้ง node version 14.18.1 ที่นี่ https://nodejs.org/en/blog/release/v14.18.1
 
